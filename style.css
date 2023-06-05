@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Overpass:wght@500&display=swap');
+
+body {
+    color: #FCE9F1;
+    background-color: #080202;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: 0px;
+    font-weight: bold;
+    background: #73BBC9;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    box-shadow: 10px;
+}
+
+nav a:hover {
+    color: #080202;
+    transition: 700ms;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    list-style-type: none;
+    padding: 16px;
+    margin: 0px 50px 50px 50px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #73BBC9;
+    font-size: 80px;
+    font-family: 'Caveat', cursive;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 50px;
+    font-size: 24px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid #73BBC9;
+    width: 150px;
+    height: 150px;
+}
+
+.centro {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #73BBC9;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 35px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-decoration: none;
+    color: #73BBC9;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+@media (max-width: 700px) {
+
+    main {
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
